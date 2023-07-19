@@ -1,0 +1,51 @@
+form{
+    width: 400px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+form input{
+    margin: 10px;
+}
+
+img{
+    height: 0 auto;
+    width: 0 auto;
+
+}
+
+body{
+    min-height: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/68/2019/01/07/os-10-melhores-jogos-de-2018-na-opiniao-do-uol-jogos-1546887965085_v2_1920x1080.jpg);
+    height: 0 auto;
+    width: 0 auto;
+}
+
+.table{
+    background-color: #fff5;
+    color:black;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+.table th {
+    background-color: #ececec;
+    color:#1a1a1a;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+    color:#111111;
+}
+
+
